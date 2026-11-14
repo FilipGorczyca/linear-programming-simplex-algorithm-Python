@@ -19,7 +19,7 @@ A from-scratch implementation of the **Tabular Simplex Algorithm** coupled with 
 ## Mathematical Formulation & Algorithm Architecture
 
 ### 1. General Linear Programming Problem
-The solver accepts any linear objective function (maximization or minimization, where $\min Z = -\max(-Z)$) subject to $m$ linear constraints and $n$ decision variables:
+The solver accepts any linear objective function (maximization or minimization, where $\min Z = -\max(-Z)$ ) subject to $m$ linear constraints and $n$ decision variables:
 
 $$\max (\text{or } \min) \quad Z = \mathbf{c}^T \mathbf{x}$$
 
