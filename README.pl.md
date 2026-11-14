@@ -19,7 +19,7 @@ Autorska implementacja **tablicowego algorytmu Simpleks** z wykorzystaniem **met
 ## Sformułowanie matematyczne i architektura algorytmu
 
 ### 1. Ogólna postać zadania Programowania Liniowego
-Solver obsługuje zadania maksymalizacji lub minimalizacji (sprowadzane przez $\min Z = -\max(-Z)$) liniowej funkcji celu przy $m$ warunkach ograniczających i $n$ zmiennych decyzyjnych:
+Solver obsługuje zadania maksymalizacji lub minimalizacji (sprowadzane przez $\min Z = -\max(-Z)$ ) liniowej funkcji celu przy $m$ warunkach ograniczających i $n$ zmiennych decyzyjnych:
 
 $$\max (\text{lub } \min) \quad Z = \mathbf{c}^T \mathbf{x}$$
 
